@@ -39,21 +39,30 @@ const BookCard = ({ book }: { book: any }) => {
   };
 
   return (
-    <div ref={ overlayRef} className="0 text-white hover:text-red-500 transition-colors duration-300" >
+    <div ref={overlayRef} className="text-white hover:text-red-500 transition-colors duration-300">
       <div
-        className="relative group w-48 h-50 overflow-hidden border rounded-md cursor-pointer"
+        className="relative group w-44 h-72 overflow-hidden border border-gray-700 rounded-lg cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-300"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        
-        
-        <Link href={`/book/${book.id}`} passHref className="flex flex-col justify-between items-center h-full p-4">
-          { 
-            book.cover_path&&
-          <Image width={200} height={200} src={book.cover_path} alt={`${book.title}'s cover`} />
-          }
-   
-          <h4 ref={titleRef} id="title" className="text-center text-xs font-semibold truncate mt-4">{book.title}</h4>
+        <Link href={`/book/${book.id}`} passHref className="flex flex-col items-center h-full p-2">
+          {book.cover_path && (
+            <div className="relative w-full h-60 rounded-md overflow-hidden">
+              <Image
+                src={book.cover_path}
+                alt={`${book.title}'s cover`}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          )}
+          <h4
+            ref={titleRef}
+            id="title"
+            className="text-center text-xs font-semibold truncate mt-3 px-2 w-full"
+          >
+            {book.title}
+          </h4>
         </Link>
       </div>
     </div>

@@ -80,6 +80,45 @@ This repository contains a flowchart representing the workflow of a book-related
 
 ---
 
+## 📸 **لقطات الشاشة**  
+### **Screenshots**  
+
+🔹 **صفحة تسجيل الدخول** – واجهة تسجيل الدخول للمستخدمين  
+**Login Page** – User authentication screen  
+![Login](login.png)  
+
+🔹 **الصفحة الرئيسية** – عرض للكتب المتاحة  
+**Main Page** – Display of available books  
+![Main Page](main.png)  
+
+🔹 **الصفحة الرئيسية بعد تسجيل الدخول كمسؤول** – الوصول إلى ميزات إضافية  
+**Main Page After Admin Login** – Access to all features  
+![Admin Main Page](mainafterloginbyadmin.png)  
+
+🔹 **الصفحة الرئيسية بعد تسجيل الدخول كمشرف** – الوصول إلى ميزات إضافية  
+**Main Page After Mod Login** – Access to some features  
+![Mod Main Page](mainafterloginbymod.png)  
+
+🔹 **الصفحة الرئيسية بعد تسجيل الدخول كمستخدم** – الوصول إلى ميزات إضافية  
+**Main Page After User Login** – Access to basic features  
+![User Main Page](mainafterloginbyuser.png)  
+
+🔹 **إنشاء كتاب جديد** – نموذج لإضافة كتاب جديد  
+**Create a Book** – Form for adding a new book  
+![Create a Book](createabook.png)  
+
+🔹 **إدارة المشرفين من قبل المسؤول** – التحكم في المشرفين  
+**Mods Management for Admin** – Admin controls for moderators  
+![Mods Management](modsforadmin.png)  
+
+🔹 **المراجعات المعلقة للمشرفين** – قائمة بالمحتويات التي تنتظر المراجعة  
+**Pending Reviews for Moderators** – List of content awaiting approval  
+![Pending for Mods](pendingformodorupper.png)  
+
+🔹 **واجهة المستخدم للمشرفين فقط** – شاشة خاصة للمشرفين  
+**User Dashboard for Moderators** – Exclusive view for moderators  
+![Moderators Dashboard](userapperasonlyformodorupper.png)  
+---
 ## 📌 **البدء في المشروع**  
 ### **Getting Started**  
 
